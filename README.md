@@ -1,57 +1,49 @@
-# viral-carousel-designer
+# 🎨 Viral Carousel AI Agent Skill
 
-An open Agent Skill that turns any AI tool / dev tool / product launch into a
-premium, brand-accurate Instagram carousel: strategy, slide copy, image
-prompts, caption, and hashtags — invoked with `/carousel <topic>`.
+Turn any AI tool, dev product, or launch into a viral, brand-accurate Instagram carousel: strategy, slide copy, image prompts, caption, and hashtags.
 
-## ⚡ 1-Line Global Installation
+Works across **Claude Code**, **Claude.ai**, **Cursor**, **Antigravity**, **Windsurf**, and **ChatGPT**.
 
-Install globally across **Claude Code CLI**, **Cursor**, **Antigravity**, and **Windsurf** with a single command:
+---
+
+## ⚡ Quick Install (1-Line)
+
+Run this once in your terminal to install `/carousel` globally across all your AI coding agents:
 
 ```bash
-npx github:RahulMirji/Carousel-Skill
+npx carousel-skill
 ```
-
-*(Or if published to npm: `npx carousel-skill`)*
 
 ---
 
-## 📁 What's in here
+## 🚀 How to Use
 
-```
-viral-carousel-skill/
-├── carousel/
-│   ├── SKILL.md              ← the actual skill (Agent Skills standard)
-│   └── references/
-│       └── brand-colors.md   ← brand palette reference, loaded on demand
-├── .claude/commands/
-│   └── carousel.md           ← slash command for Claude Code
-├── bin/
-│   └── install.js            ← 1-line global npx installer script
-├── chatgpt-instructions.md   ← paste-in system prompt for ChatGPT Custom GPTs
-├── package.json              ← npm / npx package manifest
-└── README.md
+### 1. Claude Code CLI & IDE Agents (Cursor / Antigravity / Windsurf)
+Type `/carousel` followed by your topic in your terminal or agent chat:
+
+```text
+/carousel Cursor's new multi-agent mode
 ```
 
-## 🛠 Usage per Platform
+### 2. ChatGPT (Custom GPT / Projects)
+Copy the system prompt from [`chatgpt-instructions.md`](./chatgpt-instructions.md) and paste it into your GPT's **Instructions** field.
 
-### 1. Claude Code (CLI / IDE extension)
-Run `npx github:RahulMirji/Carousel-Skill` once. Afterwards, type `/carousel <topic>` directly in your terminal/CLI!
-
-### 2. Cursor / Antigravity / Windsurf / Agentic IDEs
-Running `npx github:RahulMirji/Carousel-Skill` automatically installs `carousel/SKILL.md` into your global agent config (`~/.gemini/config/skills/carousel` and `~/.claude/skills/carousel`).
-
-### 3. Claude.ai (Web/Desktop App)
-Settings → Capabilities → Skills → upload the `carousel/` folder (or zip it first). Once installed, type `/carousel <topic>`.
-
-### 4. ChatGPT (Custom GPT or Project)
-1. Open `chatgpt-instructions.md` and copy the text.
-2. Paste it into your Custom GPT's **Instructions** field under the **Configure** tab.
+### 3. Claude.ai (Web)
+Go to **Settings** → **Capabilities** → **Skills** and upload the `carousel/` folder.
 
 ---
 
-## 📦 Publishing to npm (Optional)
+## 📦 What It Outputs
 
-If you want people to run `npx carousel-skill` instead of the GitHub repo link:
-1. Log in to npm: `npm login`
-2. Publish: `npm publish --access public`
+For every topic, the skill outputs:
+1. **Carousel Strategy** — Hook, target audience, slide count & CTA strategy.
+2. **Slide-by-Slide Copy** — 1 idea per slide, 5–15 words per block, Apple/Stripe design style.
+3. **Image Generation Prompts** — 4:5 aspect ratio prompts for Midjourney / DALL-E / Flux.
+4. **Caption & CTAs** — Curiosity-driving caption with comment/save triggers.
+5. **Hashtags** — 15–20 curated tech & niche hashtags.
+6. **Design Checklist** — Evaluated against the 2-second scroll-stopping rule.
+
+---
+
+## 📄 License
+MIT © [Rahul Mirji](https://github.com/RahulMirji)
