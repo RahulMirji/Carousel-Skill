@@ -1,0 +1,35 @@
+{
+  "name": "carousel-skill",
+  "version": "1.0.0",
+  "description": "Viral Instagram Carousel designer skill for Claude, ChatGPT, Cursor, and Agentic IDEs.",
+  "main": "bin/install.js",
+  "bin": {
+    "carousel-skill": "bin/install.js",
+    "install-carousel-skill": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "carousel",
+    ".claude",
+    "chatgpt-instructions.md",
+    "README.md"
+  ],
+  "scripts": {
+    "install-skill": "node bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulMirji/Carousel-Skill.git"
+  },
+  "keywords": [
+    "claude-skill",
+    "agent-skills",
+    "carousel",
+    "instagram",
+    "claude-code",
+    "cursor",
+    "chatgpt"
+  ],
+  "author": "Rahul Mirji",
+  "license": "MIT"
+}
