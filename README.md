@@ -1,3 +1,5 @@
+![Viral Carousel AI Agent Skill](./assets/banner.png)
+
 # 🎨 Viral Carousel AI Agent Skill
 
 Turn any AI tool, dev product, or launch into a viral, brand-accurate Instagram carousel: strategy, slide copy, image prompts, caption, and hashtags.
