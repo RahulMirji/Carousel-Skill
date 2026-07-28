@@ -1,4 +1,4 @@
-![Viral Carousel AI Agent Skill](./assets/banner.png)
+<img src="./assets/banner.png" width="100%" alt="Viral Carousel AI Agent Skill Banner" />
 
 # 🎨 Viral Carousel AI Agent Skill
 
